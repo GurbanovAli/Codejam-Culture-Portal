@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import './index.css'
 import Footer from './tutorial/footer'
-import Main from './main'
+import Main from './Main'
 import SimpleSlider from './gallery'
 
 
