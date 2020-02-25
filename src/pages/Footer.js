@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
 
-import logo from '../../images/logo-big.png'
+import logo from '../images/logo-big.png'
 import ScrollUpButton from "react-scroll-up-button"
 
 
@@ -14,7 +14,7 @@ const Footer = () => {
              <div className='block-footer'>
                  MENU
                 <ul>
-                   <li><Link to="/Main/" className='link' >Main Home</Link></li>
+                   <li><Link to="/IndexPage/" className='link' >Main Home</Link></li>
                    <li><Link to="/Movie/" className='link' >Movie Directors</Link></li>
                    <li><Link to="/About/" className='link' >About</Link></li>
                 </ul>
@@ -23,7 +23,7 @@ const Footer = () => {
                 SUPPORT
                 <ul>
                    <li><Link to="/Developers/" className='link' >Developers</Link></li>
-                   <li><Link to="/Movie/" className='link' >Worklog</Link></li>
+                   <li><Link to="/Worklog/" className='link' >Worklog</Link></li>
                    <li><Link to="/Movie/" className='link' >Styleguide</Link></li>
                 </ul>
              </div>
