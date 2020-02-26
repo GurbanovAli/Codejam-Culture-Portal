@@ -11,7 +11,7 @@ import {
   DropdownButton,
   Dropdown
 } from "react-bootstrap";
-import "./header.css";
+import "./Header.css";
 import Logotype from "../../images/logo-big.png";
 
 const Header = () => {
