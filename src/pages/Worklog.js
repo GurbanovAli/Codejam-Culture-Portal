@@ -1,7 +1,6 @@
-import React, {useState} from 'react'
+import React, {Component, useState} from 'react'
 import { Link } from "gatsby"
 
-import {Accordion, Card, useAccordionToggle} from "react-bootstrap";
 import Layout from '../components/layout';
 import worklogData from './worklogData';
 import './Worklog.css'
