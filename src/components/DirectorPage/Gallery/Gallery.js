@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import { Link } from "gatsby"
 
 import Gallery from 'react-grid-gallery';
@@ -43,7 +43,7 @@ const languageData = {
    }
 };
 const language = "ru";
-class SimpleSlider extends React.Component {
+class SimpleSlider extends Component {
       constructor(props) {
          super(props)
          this.state = {

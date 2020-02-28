@@ -1,10 +1,10 @@
-import React from 'react'
+import React,{Component} from 'react'
 import { Link } from "gatsby"
 
 import Layout from '../components/layout';
 
 
-class Styleguide extends React.Component {
+class Styleguide extends Component {
 render(){
    return (
        <Layout>

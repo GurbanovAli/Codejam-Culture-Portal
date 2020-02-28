@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 import worklogData from './worklogData';
 import './Worklog.css'
 
-class Toggle extends React.Component {
+class Toggle extends Component {
   state = {
     show: false,
   }
@@ -37,7 +37,7 @@ class Toggle extends React.Component {
   }
 }
 
-class ToggleTwo extends React.Component {
+class ToggleTwo extends Component {
   state = {
     show: false,
   }
@@ -107,7 +107,7 @@ class ToggleTwo extends React.Component {
   }
 }
 
-class ToggleThree extends React.Component {
+class ToggleThree extends Component {
   state = {
     show: false,
   }
@@ -137,7 +137,7 @@ class ToggleThree extends React.Component {
   }
 }
 
-class Worklog extends React.Component {
+class Worklog extends Component {
    render(){
       return(
          <Layout>
