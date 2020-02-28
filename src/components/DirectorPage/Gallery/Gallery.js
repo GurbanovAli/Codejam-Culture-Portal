@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import { Link } from "gatsby"
 
 import Gallery from 'react-grid-gallery';
 import './Gallery.scss'
