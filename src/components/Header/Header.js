@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from "gatsby"
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Container,
@@ -11,7 +10,7 @@ import {
   DropdownButton,
   Dropdown
 } from "react-bootstrap";
-import "./Header.css";
+import "./Header.scss";
 import Logotype from "../../images/logo-big.png";
 
 const Header = () => {
@@ -32,23 +31,23 @@ const Header = () => {
               id="basic-navbar-nav"
             >
               <Nav className="header__nav-primary nav-main">
-                <Nav.Link bsPrefix="nav-main__link" href="#home">
+                <Link className="nav-main__link" to="/ListOfAuthors/">
                   Movie Directors
-                </Nav.Link>
-                <Nav.Link bsPrefix="nav-main__link" href="#link">
+                </Link>
+                <Link className="nav-main__link" to="/About/">
                   About
-                </Nav.Link>
+                </Link>
               </Nav>
               <Nav className="header__nav-second nav-second">
-                <Nav.Link bsPrefix="nav-second__link" href="#home">
+                <Link className="nav-second__link" to="/Developers/">
                   Developers
-                </Nav.Link>
-                <Nav.Link bsPrefix="nav-second__link" href="#styleguide">
+                </Link>
+                <Link className="nav-second__link" to="/Styleguide/">
                   Styleguide
-                </Nav.Link>
-                <Nav.Link bsPrefix="nav-second__link" href="#worklog">
+                </Link>
+                <Link className="nav-second__link" to="/Worklog/">
                   Worklog
-                </Nav.Link>
+                </Link>
                 <Nav.Link className="nav-second__link" href="#dropdowm">
                   <DropdownButton
                     size="sm"

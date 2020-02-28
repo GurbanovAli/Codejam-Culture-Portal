@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
 
+import './Developers.css'
 import Layout from '../components/layout';
 import ReactAnimation from 'react-animation';
 import AnimateOnChange from 'react-animate-on-change';
@@ -24,7 +25,7 @@ const App = () => {
         Developer</div>
       ) : (
         <a.div className="box" style={contentProps}>
-          <h3>Hey there ! React Spring is awesome.</h3>
+          <h4>Hey there ! React Spring is awesome.</h4>
         </a.div>
       )}
     </div>
