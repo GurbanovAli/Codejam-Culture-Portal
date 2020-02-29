@@ -1,7 +1,7 @@
 import React, {Component, useState } from 'react'
 
 import Layout from '../components/layout';
-import WorklogData from './WorklogData';
+import WorklogData from './WorklogD';
 import './Worklog.css'
 
 
