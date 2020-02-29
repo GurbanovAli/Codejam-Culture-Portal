@@ -2,15 +2,17 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from "react-bootstrap/Button";
+import directorsData from "../directorsData"
+import { Link } from "gatsby"
 
-function getDirectorOfDay(data){
-  const directorKeysArray = Object.keys(data);
-  let currentDay = new Date(Date.now()).getDate();
-  while(currentDay>directorKeysArray.length){
-    currentDay -= directorKeysArray.length
-  }
-   return directorKeysArray[currentDay-1];
+import "./HomeDirectorData.scss";
+
+function getDirectorOfDay(data, random){
+//  let currentDay = new Date(Date.now()).getDate();
+//  while(currentDay>data.length){
+//    currentDay -= data.length
+//  }
+   return data[random];
 }
 const languageData = {
   "title":{
@@ -40,9 +42,12 @@ const languageData = {
   },
 };
 export default function HomeDirectorData(props) {
-  const {data, language} = props;
-  let directorOfDay = getDirectorOfDay(data);
-  const directorOfDayData = data[directorOfDay][language];
+  const data = directorsData;
+  const random = props.random;
+  const language = props.language;
+
+  let directorOfDay = getDirectorOfDay(data, random);
+
   return (
     <div className="home__director-data-wrapper">
       <Container className="home__director-data-container">
@@ -60,26 +65,28 @@ export default function HomeDirectorData(props) {
             </Row>
             <Row>
               <Col className="home__director-data-name-wrapper">
-                <span className="home__director-data-name-first">{directorOfDayData.name}</span>
-                <span className="home__director-data-name-second">{directorOfDayData.surname}</span>
+                <span className="home__director-data-name-first">{directorOfDay.name[language]}</span>
+                <span className="home__director-data-name-second">{directorOfDay.surname[language]}</span>
               </Col>
             </Row>
             <Row>
               <Col >
-                <Button variant="dark" className="home__director-data-button">{languageData.button[language]}</Button>
+
+              <Link to={'/author' + (random+1)}  className="home__director-data-button">{languageData.button[language]}</Link>
+
               </Col>
             </Row>
             <Row>
               <Col lg={{offset: 6}} className="home__director-data-point-container">
                 <Row>
               <Col className="home__director-data-point-wrapper">
-                <span className="home__director-data-point-number">{Object.keys(directorOfDayData.filmography)[0]}</span>
+                <span className="home__director-data-point-number">{directorOfDay.filmography[0].information[0].year}</span>
                 <span>{languageData.firstMovie[language]}</span></Col>
               <Col className="home__director-data-point-wrapper">
-                <span className="home__director-data-point-number">{directorOfDayData.awards}</span>
+                <span className="home__director-data-point-number">{directorOfDay.awards}</span>
                 <span>{languageData.awards[language]}</span></Col>
               <Col className="home__director-data-point-wrapper">
-                <span className="home__director-data-point-number">{Object.keys(directorOfDayData.filmography).length}</span>
+                <span className="home__director-data-point-number">{directorOfDay.filmography.length}</span>
                 <span>{languageData.filmAmount[language]}</span>
               </Col>
                 </Row>

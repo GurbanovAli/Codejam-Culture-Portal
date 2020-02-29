@@ -1,4 +1,4 @@
-import React, {Component, useState} from 'react'
+import React, {Component } from 'react'
 
 import Layout from '../components/layout';
 import worklogData from './worklogData';
@@ -119,7 +119,7 @@ class ToggleThree extends Component {
        </button>
        {show &&  <table className='table' responsive>
           <tr>
-            <th> Main difficulties for the team during implementation </th>
+            <th> </th>
           </tr>
           <tr>
             <td>Using Gatsby</td>

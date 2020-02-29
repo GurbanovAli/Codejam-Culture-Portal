@@ -1,8 +1,8 @@
 import React from "react"
 
 import SEO from '../components/seo';
-import './loa.scss';
 import Main from './Main'
+import './index.css';
 
 const IndexPage = () => {
  return (
