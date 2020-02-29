@@ -1,6 +1,5 @@
 import React, {Component, useState } from 'react'
 
-
 import Layout from '../components/layout';
 import WorklogData from './WorklogData';
 import './Worklog.css'
