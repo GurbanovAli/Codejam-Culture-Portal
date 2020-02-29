@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import worklogData from './worklogData';
 import './Worklog.css'
 
-class Toggle extends Component {
+function Toggle() {
   state = {
     show: false,
   }
@@ -36,7 +36,7 @@ class Toggle extends Component {
   }
 }
 
-class ToggleTwo extends Component {
+function ToggleTwo() {
   state = {
     show: false,
   }
@@ -106,7 +106,7 @@ class ToggleTwo extends Component {
   }
 }
 
-class ToggleThree extends Component {
+function ToggleThree() {
   state = {
     show: false,
   }
@@ -136,7 +136,7 @@ class ToggleThree extends Component {
   }
 }
 
-class Worklog extends Component {
+function Worklog() {
    render(){
       return(
          <Layout>
