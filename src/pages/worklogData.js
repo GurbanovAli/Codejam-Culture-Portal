@@ -19,7 +19,7 @@ export const description = {
    }
 }
 
- const worklogData = [{
+export const worklogData = [{
    task: '18.02.20',
    name: 'Dmitry Legankov',
    functionality: 'Create maket in figma and trello',
@@ -120,5 +120,3 @@ export const description = {
    functionality: '',
    time: ''
 }];
-
-export default worklogData
