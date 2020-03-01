@@ -81,21 +81,21 @@ const Header = () => {
                 <Link className="nav-main__link" to="/">
                 <img src={Logotype} alt="The Movie Director" />
                 </Link>
-                <Link className="nav-main__link" to="/ListOfAuthors/">
+                <Link className="nav-main__link movie-link" to="/ListOfAuthors/">
                   {directors}
                 </Link>
               </Nav>
               <Nav className="header__nav-second nav-second">
-                <Link className="nav-second__link" to="/Developers/">
+                <Link className="nav-second__link head-link" to="/Developers/">
                   {developers} |
                 </Link>
-                <Link className="nav-second__link" to="/Styleguide/">
+                <Link className="nav-second__link head-link" to="/Styleguide/">
                   {styleguide} |
                 </Link>
-                <Link className="nav-second__link" to="/Worklog/">
+                <Link className="nav-second__link head-link" to="/Worklog/">
                   {worklog} |
                 </Link>
-                <Nav.Link className="nav-second__link">
+                <Nav.Link className="nav-second__link head-link">
                   <Form>
                       <Form.Control as="select" defaultValue={shortLang[currLang]} onChange={(e)=>changeLang(e.target.value)}>
                         {oneSelectArr}

@@ -45,7 +45,7 @@ export default function HomeDirectorData(props) {
   const data = directorsData;
   const random = props.random;
   const language = props.language;
-  
+
   let directorOfDay = getDirectorOfDay(data, random);
 
   return (
@@ -72,8 +72,8 @@ export default function HomeDirectorData(props) {
             <Row>
               <Col >    
 
-              <Link to={'/author' + (random+1)}  className="home__director-data-button">{languageData.button[language]}</Link>
-                
+              <Link to={'/Author' + (random+1)}  className="home__director-data-button">{languageData.button[language]}</Link>
+
               </Col>
             </Row>
             <Row>

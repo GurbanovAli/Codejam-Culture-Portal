@@ -23,6 +23,7 @@ function Author1() {
       <div className="director__container">
       <DirectorDescription data={directorsData[0]}></DirectorDescription>
        <DirectorMovies link={'3gLr5VrKIY0'}/>
+
        <DirectorWorks data={directorsData[0]}/>
 
        <SimpleSlider data={directorsData[0]} />
