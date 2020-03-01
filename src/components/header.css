@@ -57,6 +57,17 @@
   transition: 0.2s;
 }
 
+.form-control {
+   height: 28px;
+   font-size: 12px;
+   font-weight: 600;
+}
+
+.option{
+   font-size: 12px;
+   font-weight: 600;
+}
+
 .nav-second__link:hover{
    color: white;
    transition: 1s;

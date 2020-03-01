@@ -173,9 +173,9 @@ export const developers = {
       be: 'Xей! інфармацыя пры кліку на імя'
    },
    intro: {
-      en: ' Role in the team:  Developer',
-      ru: 'Роль в команде: Розработчик',
-      be: 'Ролю ў камандзе: Розработчик'
+      en: 'Role in the team :  Developer',
+      ru: 'Роль в команде : Розработчик',
+      be: 'Ролю ў камандзе : Розработчик'
    }
 }
 

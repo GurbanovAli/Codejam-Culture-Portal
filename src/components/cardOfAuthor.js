@@ -17,11 +17,11 @@ const CardOfAuthor = ({imgName,name,years,description,detail,link}) => (
       <Card.Text className='text-muted'>
         {description}
       </Card.Text>
-
-      <Link to={'/Author' + (link+1)}  className='bottom'>{detail}</Link>
-
-
-
+  
+      <Link to={'/author' + (link+1)} className='bottom'>{detail}</Link> 
+  
+  
+  
     </Card.Body>
   </Card>
 )

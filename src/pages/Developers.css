@@ -10,14 +10,6 @@ img {
    border-radius: 8px;
 }
 
-img:hover {
-   transform: scale(1.1);
-   -webkit-transition: 0.5s ease-in-out;
-   -moz-transition: 0.5s ease-in-out;
-   -o-transition: 0.5s ease-in-out;
-   transition: 0.5s ease-in-out;
-}
-
 .team-list {
    margin-left: 4em;
    margin-right: 4em;
@@ -42,6 +34,11 @@ img:hover {
 }
 
 .team-link {
+   text-decoration: none;
+   color: white;
+}
+
+.team-link:hover {
    text-decoration: none;
    color: white;
 }
@@ -76,14 +73,6 @@ img:hover {
    text-align: center;
    align-items: center;
    justify-content: center;
-}
-
-h2:hover {
-   transform: scale(1.3);
-   -webkit-transition: 0.5s ease-in-out;
-   -moz-transition: 0.5s ease-in-out;
-   -o-transition: 0.5s ease-in-out;
-   transition: 0.5s ease-in-out;
 }
 
 .button {

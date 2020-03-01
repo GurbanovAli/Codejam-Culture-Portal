@@ -1,35 +1,3 @@
-import autor from '../../images/assets/arshanskiy1.jpg'
-import autorTwo from '../../images/assets/arshanskiy2.jpg'
-import autorThree from '../../images/assets/arshanskiy3.jpg'
-import belousovOne from '../../images/assets/belousov1.jpg'
-import belousovTwo from '../../images/assets/belousov2.jpg'
-import belousovThree from '../../images/assets/belousov3.jpg'
-import zalmanovichOne from '../../images/assets/zalmanovich.jpg'
-import veinerovichOne from '../../images/assets/veinerovich1.jpg'
-import veinerovichTwo from '../../images/assets/veinerovich2.jpg'
-import veinerovichThree from '../../images/assets/veinerovich3.jpg'
-import ginzburgOne from '../../images/assets/ginzburg1.jpg'
-import ginzburgTwo from '../../images/assets/ginzburg2.jpg'
-import ginzburgThree from '../../images/assets/ginzburg3.jpg'
-import golubOne from '../../images/assets/golub1.jpg'
-import golubTwo from '../../images/assets/golub2.jpg'
-import golubThree from '../../images/assets/golub3.jpg'
-import gutkovichOne from '../../images/assets/gutkovich1.jpg'
-import gutkovichTwo from '../../images/assets/gutkovich2.jpg'
-import gutkovichThree from '../../images/assets/gutkovich3.jpg'
-import dashukOne from '../../images/assets/dashuk1.jpg'
-import dashukTwo from '../../images/assets/dashuk2.jpg'
-import dashukThree from '../../images/assets/dashuk3.jpg'
-import korshOne from '../../images/assets/korsh1.jpg'
-import korshTwo from '../../images/assets/korsh2.jpg'
-import korshThree from '../../images/assets/korsh3.jpg'
-import hashchevatskiOne from '../../images/assets/hashchevatski1.jpg'
-import hashchevatskiTwo from '../../images/assets/hashchevatski2.jpg'
-import hashchevatskiThree from '../../images/assets/hashchevatski3.jpg'
-import maruhinOne from '../../images/assets/maruhin.jpg'
-import maruhinTwo from '../../images/assets/maruhin2.jpg'
-import maruhinThree from '../../images/assets/maruhin3.jpg'
-
 const directorsData = [
   {
     "name": {
@@ -56,7 +24,6 @@ const directorsData = [
           "be": "Рэжысёр у тэатры"
         }
       },
-
       {
         "years": "1931-1941",
         "do": {
@@ -252,18 +219,15 @@ const directorsData = [
     ],
     "description": {
       "ru": "Белорусский советский режиссёр, сценарист",
-      "en": "Belarusian Soviet director, screenwriter",
+      "en": "Belarusian Soviet director, screenwrite",
       "be": "Беларускі савецкі рэжысёр, сцэнарыст"
     },
     "fullDescription": {
       "ru": "Белорусский советский режиссёр, сценарист",
-      "en": "Belarusian Soviet director, screenwriter",
+      "en": "Belarusian Soviet director, screenwrite",
       "be": "Беларускі савецкі рэжысёр, сцэнарыст"
     },
     "picture": "https://www.kino-teatr.ru/acter/photo/5/3/47035/391626.jpg",
-    "gallery": [autor],
-    "galleryTwo": [autorTwo],
-    "galleryThree": [autorThree],
     "yearsOfLife": "25.08.1899 - 06.07.1974",
     "placeOfBirth": {
       "ru": "Невель",
@@ -499,9 +463,6 @@ const directorsData = [
       "be": "Савецкі і беларускі мастак-мультыплікатар, сцэнарыст, рэжысёр"
     },
     "picture": "https://flibusta.site/ia/53/415253/oleg_belousov.jpg",
-    "gallery": [belousovOne],
-    "galleryTwo": [belousovTwo],
-    "galleryThree": [belousovThree],
     "yearsOfLife": "16.11.1945 - 26.03.2009",
     "placeOfBirth": {
       "ru": "Слуцк",
@@ -790,9 +751,6 @@ const directorsData = [
       "be": "Савецкі кінааператар і рэжысёр, мастак, кінадакументаліст. Заслужаны дзеяч мастацтваў БССР (1967)"
     },
     "picture": "https://upload.wikimedia.org/wikipedia/ru/6/64/Moisey_Zalmanovich_Berov.jpg",
-    "gallery": [zalmanovichOne],
-    "galleryTwo": [zalmanovichOne],
-    "galleryThree": [zalmanovichOne],
     "yearsOfLife": "10.12.1909 - 2003",
     "placeOfBirth": {
       "ru": "Велиж",
@@ -1500,9 +1458,6 @@ const directorsData = [
       "be": "Савецкі кінааператар і рэжысёр дакументальнага кіно. Народны артыст БССР (1973). Лаўрэат Сталінскай прэміі другой ступені (1943). Член ВКП (б) з 1942 году"
     },
     "picture": "https://i.mycdn.me/i?r=AyH4iRPQ2q0otWIFepML2LxRjlKHB3ejhaL-7yDrgUCcjw",
-    "gallery": [veinerovichOne],
-    "galleryTwo": [veinerovichTwo],
-    "galleryThree": [veinerovichThree],
     "yearsOfLife": "24.12.1909 - 29.08.1998",
     "placeOfBirth": {
       "ru": "Минск",
@@ -1709,9 +1664,6 @@ const directorsData = [
       "be": "Савецкі кінааператар і рэжысёр"
     },
     "picture": "https://www.kino-teatr.ru/acter/album/25515/10383.jpg",
-    "gallery": [ginzburgOne],
-    "galleryTwo": [ginzburgTwo],
-    "galleryThree": [ginzburgThree],
     "yearsOfLife": "01.03.1907 - 10.03.1972",
     "placeOfBirth": {
       "ru": "Рогачёв",
@@ -2056,9 +2008,6 @@ const directorsData = [
       "be": "Савецкі і беларускі кінарэжысёр, сцэнарыст. Народны артыст БССР (1964)"
     },
     "picture": "https://www.kino-teatr.ru/acter/foto/sov/30853.jpg",
-    "gallery": [golubOne],
-    "galleryTwo": [golubTwo],
-    "galleryThree": [golubThree],
     "yearsOfLife": "29.09.1904 - 26.05.1994",
     "placeOfBirth": {
       "ru": "Днепр",
@@ -2297,9 +2246,6 @@ const directorsData = [
       "be": "Савецкі і беларускі кінарэжысёр, сцэнарыст і драматург. Заслужаны дзеяч мастацтваў Беларускай ССР (1981). Лаўрэат Дзяржаўнай прэміі Беларускай ССР (1966)"
     },
     "picture": "https://upload.wikimedia.org/wikipedia/ru/5/51/Alexander_Zakharovich_Gutkovich.jpg",
-    "gallery": [gutkovichOne],
-    "galleryTwo": [gutkovichTwo],
-    "galleryThree": [gutkovichThree],
     "yearsOfLife": "20.12.1920 - 19.09.1989",
     "placeOfBirth": {
       "ru": "Аскеры",
@@ -2678,9 +2624,6 @@ const directorsData = [
       "be": "Савецкі беларускі кінарэжысёр-дакументаліст. Лаўрэат Дзяржаўнай прэміі СССР (1985), Заслужаны дзеяч мастацтваў Беларускай ССР (1977), Народны артыст Беларускай ССР (1989). Член КПСС з 1976 года"
     },
     "picture": "https://www.kino-teatr.ru/acter/foto/sov/254684.jpg",
-    "gallery": [dashukOne],
-    "galleryTwo": [dashukTwo],
-    "galleryThree": [dashukThree],
     "yearsOfLife": "16.09.1938",
     "placeOfBirth": {
       "ru": "Валоки",
@@ -3061,9 +3004,6 @@ const directorsData = [
       "be": "Беларускі савецкі кінарэжысёр, акцёр кіно. Народны артыст СССР (1969). Лаўрэат Сталінскай прэміі (1950). Адзін з заснавальнікаў беларускага кіно"
     },
     "picture": "https://upload.wikimedia.org/wikipedia/commons/2/23/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87_%D0%9A%D0%BE%D1%80%D1%88-%D0%A1%D0%B0%D0%B1%D0%BB%D0%B8%D0%BD.gif",
-    "gallery": [korshOne],
-    "galleryTwo": [korshTwo],
-    "galleryThree": [korshThree],
     "yearsOfLife": "29.03.1900 — 06.07.1974",
     "placeOfBirth": {
       "ru": "Москва",
@@ -3493,10 +3433,7 @@ const directorsData = [
       "en": "Belarusian and Soviet film director",
       "be": "Беларускі і савецкі кінарэжысёр"
     },
-    "picture": [hashchevatskiThree],
-    "gallery": [hashchevatskiOne],
-    "galleryTwo": [hashchevatskiTwo],
-    "galleryThree": [hashchevatskiThree],
+    "picture": "https://yt3.ggpht.com/a/AGF-l79gh-zsahfnOWMVkxBCG3I1lxq8m3W0SYMe9A=s900-c-k-c0xffffffff-no-rj-mo",
     "yearsOfLife": "18.10.1947",
     "placeOfBirth": {
       "ru": "Одесса",
@@ -3797,9 +3734,6 @@ const directorsData = [
       "be": "Савецкі і беларускі кінарэжысёр, сцэнарыст, аператар. Заслужаны дзеяч мастацтваў Беларускай ССР (1974). Сцэнары пісаў у асноўным да сваіх дакументальных фільмаў. Член КПСС з 1974 года"
     },
     "picture": "https://www.sb.by/upload/resize_cache/slam.image/iblock/578/855_2000_1/578d00cbe0034068bf4726daf25048d0.jpg",
-    "gallery": [maruhinOne],
-    "galleryTwo": [maruhinTwo],
-    "galleryThree": [maruhinThree],
     "yearsOfLife": "13.07.1938 - 20.12.2001",
     "placeOfBirth": {
       "ru": "Фёдоровка",

@@ -33,6 +33,12 @@ th{
    color:white;
 }
 
+.icon-img{
+   width:28px;
+   margin-right: 10px;
+
+}
+
 th,td {
    text-align: center;
 }

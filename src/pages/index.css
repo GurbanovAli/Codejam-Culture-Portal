@@ -3,7 +3,7 @@
   width: 100%;
 }
 .flexMain {
-  display: flex;
+  display: flex;  
 }
 .director {
   display: inline-block;
