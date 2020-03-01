@@ -66,7 +66,7 @@ const Footer = () => {
             <h5 className="title">{menu}<img src={book} /></h5>
                  <ul>
                      <li><Link to="/" className='list-unstyled' >{main}</Link></li>
-                     <li><Link to="/listOfAuthors/" className='list-unstyled' >{directors}</Link></li>
+                     <li><Link to="/ListOfAuthors/" className='list-unstyled' >{directors}</Link></li>
                  </ul>
           </MDBCol>
           <MDBCol md="2">
