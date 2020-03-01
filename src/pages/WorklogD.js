@@ -1,25 +1,5 @@
-import React from 'react'
-export const description = {
-   worklog: {
-      team:{
-         en:'',
-         ru:'',
-         be:''
-      },
-      task:{
-         en:'Looking task level',
-         ru:'Посмотреть оценку',
-         be:'Гледзячы ўзровень задач'
-      },
-      difficulties:{
-         en:'Main difficulties for the team during implementation',
-         ru:'Основные трудности для команды при внедрении',
-         be:'Асноўныя складанасці для каманды падчас рэалізацыі'
-      }
-   }
-}
 
- const WorklogData = [{
+ const worklogData = [{
    task: '18.02.20',
    name: 'Dmitry Legankov',
    functionality: 'Create maket in figma and trello',
@@ -122,4 +102,4 @@ export const description = {
 }];
 
 
-export default WorklogData
+export default worklogData

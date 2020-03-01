@@ -1,17 +1,38 @@
-import React, {Component, useState } from 'react'
+import React, {Component, useState, useContext} from 'react'
 
 import Layout from '../components/layout';
-import WorklogData from './WorklogD';
+import {description as translate} from "../components/data/dictionary"
+import taskInfo from "../components/data/dictionary2"
+import worklogData from './WorklogD';
+import {GlobalStateContext} from '../components/context/GlobalContextProvider'
 import './Worklog.css'
 
 
+let team;
+let currLang;
+let task;
+let difficulties;
+let one;
+let two;
+let three;
+let level;
+let value;
+let isMaked;
+let taskValue;
+
+const url = "https://obhajiwala.com/assets/less/icons/ionicons/src/ios7-minus-empty.svg";
+
 const Toggle = () => {
+   const state = useContext(GlobalStateContext);
+   currLang = state.language;
+   team = translate.team[currLang];
+
   const [isToggledOn, setToggle] = useState(false)
   return (
      <>
      <div className='toggle'>
     <button className="worklogButton" onClick={() => setToggle(!isToggledOn)}>
-     {isToggledOn ? 'ON' : 'OFF'}</button>
+     {isToggledOn ? 'ON' : [team] }</button>
      {isToggledOn &&  <table className='table' responsive>
                <tr>
                 <th>Task</th>
@@ -19,7 +40,7 @@ const Toggle = () => {
                 <th>Functionality</th>
                 <th>Time</th>
                 </tr>
-                {WorklogData.map((newWorklog)=>(
+                {worklogData.map((newWorklog)=>(
                   <tr>
                   <td>{newWorklog.task}</td>
                   <td>{newWorklog.name}</td>
@@ -34,63 +55,28 @@ const Toggle = () => {
 
 
 const ToggleTwo = () => {
-  const [isToggledOn, setToggle] = useState(false)
-     const taskInfoData = [{
-          value: `10   Main page + page with a list of authors + author's page (only pages with content without widgets)`
-       }, {
-          value: '10    Page with team members + page with worklog'
-       }, {
-          value: '10    Page with list of authors contains search widget'
-       }, {
-          value: '20    Portal has two languages'
-       }, {
-          value: '20    Portal has page with styleguide'
-       }, {
-          value: '10    Mobile version is okey'
-       }, {
-          value: '10    Ipad/tablet version is okey'
-       }, {
-          value: `10   Author's page contains timeline`
-       }, {
-          value: `10   Author's page contains video overlay`
-       }, {
-          value: `20   Author's page contains photo gallery`
-       }, {
-          value: `10   Author's page contains map (geowidget)`
-       }, {
-          value: 'from 0 to 20 Design (typography, icons, colors, links + buttons + input are styled)'
-       }, {
-          value: '20    Material-ui / bootstrap is used'
-       }, {
-          value: '10    Portal has third language'
-       }, {
-          value: '10    Confidence of the project presentation'
-       }, {
-          value: '10    Project is made using gatsbyjs'
-       }, {
-          value: '10    Contentful / netlify cms is used for content management'
-       }, {
-          value: '20    Animations / special effects like paralax'
-       }, {
-          value: 'up to 20 Outstanding design'
-       }, {
-          value: '20    Storybook/styleguidist/other react styleguide tool usage for the page with styles'
-       }]
 
+   const state = useContext(GlobalStateContext);
+   currLang = state.language;
+   task = translate.task[currLang];
+   isMaked = translate.isMaked[currLang];
+   taskValue = translate.taskValue[currLang];
+
+  const [isToggledOn, setToggle] = useState(false)
        return (
 
           <div className='toggle'>
          <button className="worklogButton" onClick={() => setToggle(!isToggledOn)}>
-          {isToggledOn ? 'ON' : 'OFF'}</button>
+          {isToggledOn ? 'ON' : [task]}</button>
           {isToggledOn &&  <table className='table' responsive>
           <tr>
-            <th>Is maked</th>
-            <th>Task name</th>
+            <th>{isMaked}</th>
+            <th>{taskValue}</th>
           </tr>
-          {taskInfoData.map((newInfo)=>(
+          {taskInfo.map((newInfo)=>(
               <tr>
               <td><input type='checkbox' checked/></td>
-              <td>{newInfo.value}</td>
+              <td>{newInfo.value[currLang]}</td>
               </tr>
           ))}
        </table>}
@@ -99,23 +85,30 @@ const ToggleTwo = () => {
 }
 
 function ToggleThree() {
+   const state = useContext(GlobalStateContext);
+   currLang = state.language;
+   difficulties = translate.difficulties[currLang];
+   one = translate.one[currLang];
+   two = translate.two[currLang];
+   three = translate.three[currLang];
+   level = translate.level[currLang];
   const [isToggledOn, setToggle] = useState(false)
    return (
       <div className='toggle'>
      <button className="worklogButton" onClick={() => setToggle(!isToggledOn)}>
-      {isToggledOn ? 'ON' : 'OFF'}</button>
+      {isToggledOn ? 'ON' : [difficulties]}</button>
       {isToggledOn && <table className='table' responsive>
           <tr>
-            <th> </th>
+            <th>{level}</th>
           </tr>
           <tr>
-            <td>Using Gatsby</td>
+            <td>{one}</td>
           </tr>
           <tr>
-            <td>Coordination</td>
+            <td>{two}</td>
           </tr>
           <tr>
-            <td>Working with git repositories with team</td>
+            <td>{three}</td>
           </tr>
          </table>}
     </div>
