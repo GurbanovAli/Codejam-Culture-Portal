@@ -1,8 +1,8 @@
 .team {
-   margin-left: 7.5%;
-   margin-right: 7.5%;
-   margin-top: 5%;
-   margin-bottom: 5%;
+   margin-left: 6em;
+   margin-right: 1em;
+   margin-top: 3em;
+   margin-bottom: 3em;
    display: flex;
 }
 
@@ -10,25 +10,51 @@ img {
    border-radius: 8px;
 }
 
+img:hover {
+   transform: scale(1.1);
+   -webkit-transition: 0.5s ease-in-out;
+   -moz-transition: 0.5s ease-in-out;
+   -o-transition: 0.5s ease-in-out;
+   transition: 0.5s ease-in-out;
+}
+
 .team-list {
-   margin-left: 5%;
-   margin-right: 5%;
+   margin-left: 4em;
+   margin-right: 4em;
    margin-top: 0;
    margin-bottom: 1em;
    border: 1px solid;
    text-align: center;
    list-style: none;
-   background-color: #000000;
-   background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+   background-color: rgba(0, 0, 0, 0.125);
    border-radius: 8px;
-   color: white;
+   color: black;
    cursor: pointer;
 }
 
-.dev-img{
-   width: 100%;
-   height: 320px;
+.photo {
+  width: 320px;
+  height: 320px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.photo__1 {
+  background-image: url("https://jardin.ee/wp-content/uploads/2014/08/No-profile-LinkedIn-e1566456325422-320x320.jpg");
+}.photo__2 {
+  background-image: url("../images/team/nik.jpg");
+}.photo__3 {
+  background-image: url("../images/team/max.jpg");
+}.photo__4 {
+  background-image: url("../images/team/ali.jpg");
+}.photo__5 {
+  background-image: url("../images/team/vuk.jpg");
+}.photo__6 {
+  background-image: url("../images/team/pavel.jpg");
+}
+
 
 .team-list:hover {
    transform: scale(1.1);
@@ -39,13 +65,9 @@ img {
 }
 
 .team-link {
+   margin-top: 10px;
    text-decoration: none;
-   color: white;
-}
-
-.team-link:hover {
-   text-decoration: none;
-   color: white;
+   color: black;
 }
 
 .box {
@@ -72,12 +94,25 @@ img {
 
 .intro {
    font-weight: bold;
-   font-family: 'Georgia';
+   font-family: 'Arial';
    width: 250px;
-   font-size: 18px;
+   font-size: 21px;
    text-align: center;
    align-items: center;
    justify-content: center;
+}
+
+.dev-link:hover {
+   transform: scale(1.15);
+   -webkit-transition: 0.5s ease-in-out;
+   -moz-transition: 0.5s ease-in-out;
+   -o-transition: 0.5s ease-in-out;
+   transition: 0.5s ease-in-out;
+}
+
+.dev-link>a:hover{
+   color: black;
+   text-decoration: none;
 }
 
 .button {
@@ -95,25 +130,20 @@ img {
    .team {
       display: table-cell;
    }
+  .photo {
+      width: 243px;
+  }
 
    .team-list {
-      /* margin-left: 10%;
+      margin-left: 10%;
       margin-right: 10%;
       margin-top: 10%;
       margin-bottom: 10%;
-      padding-bottom: 10px; */
-      height: 350px;
-   }
-
-   .dev-img{
-      width:242px;
-
+      padding-bottom: 10px;
    }
 
    .box {
-      margin-top: 0px;      width: 250px;
-      height: 30px;
-      font-size: 12px;
+      width: 250px;
    }
 
    h2 {
@@ -121,11 +151,11 @@ img {
    }
 
    .box>h4 {
-      font-size: 14px;
+      font-size: 17px;
    }
 
    .intro {
-      font-size: 14px;
+      font-size: 17px;
    }
 }
 
@@ -133,19 +163,19 @@ img {
    .team {
       display: block;
    }
+  .photo {
+      width: 249px;
+   }
 
    .team-list {
       width: 250px;
       font-size: 20px;
-      /* margin-left: 5%;
+      margin-left: 5%;
       margin-right: 5%;
       margin-top: 5%;
-      margin-bottom: 5%; */
+      margin-bottom: 5%;
    }
 
-   .dev-img{
-      width:250px;
-   }
    h2 {
       font-size: 20px;
    }
@@ -168,5 +198,9 @@ img {
    .team-list {
       width: 250px;
       font-size: 20px;
+      margin-left: 20px;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
    }
 }

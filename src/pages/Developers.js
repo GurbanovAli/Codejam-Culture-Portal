@@ -3,11 +3,12 @@ import React, {useContext} from 'react'
 import './Developers.css'
 import Layout from '../components/layout';
 import { useSpring, animated as a } from "react-spring";
+
 import {GlobalStateContext} from '../components/context/GlobalContextProvider'
+
 import SEO from "../components/seo"
+
 import {developers as translate}  from "../components/data/dictionary"
-import vuk from '../images/vuk.jpg'
-import alii from '../images/ali.jpg'
 
 let info;
 let spring;
@@ -65,37 +66,35 @@ const Developers = () => {
           <div>
              <ul className='team' >
                 <li className='team-list' >
-                   <div>
-                   <img className='dev-img' src={url} />
-                   <h2 className='developers-name'><a href="https://github.com/Asindeton" className='team-link' >{dmitry}</a></h2>
-                   <App lang={currLang}/>
-                   </div>
-                </li>
-                <li className='team-list' >
-                   <img className='dev-img'  src={url} />
-                   <h2><a href="https://github.com/shebekocom" className='team-link' >{nikolay}</a></h2>
+                   <div className='photo photo__1'/>
+                   <h2 className='dev-link'><a href="https://github.com/Asindeton" className='team-link' >{dmitry}</a></h2>
                    <App lang={currLang}/>
                 </li>
                 <li className='team-list' >
-                   <img className='dev-img'  src={url} />
-                   <h2><a href="https://github.com/Kr-Mx" className='team-link' >{maksim}</a></h2>
+                   <div className='photo photo__2'/>
+                   <h2 className='dev-link'><a href="https://github.com/shebekocom" className='team-link' >{nikolay}</a></h2>
+                   <App lang={currLang}/>
+                </li>
+                <li className='team-list' >
+                   <div className='photo photo__3'/>
+                   <h2 className='dev-link'><a href="https://github.com/Kr-Mx" className='team-link' >{maksim}</a></h2>
                    <App lang={currLang}/>
                 </li>
              </ul>
              <ul className='team'>
                 <li className='team-list' >
-                   <img className='dev-img'  src={alii} />
-                   <h2><a href="https://github.com/GurbanovAli" className='team-link' >{ali}</a></h2>
+                   <div className='photo photo__4'/>
+                   <h2 className='dev-link'><a href="https://github.com/GurbanovAli" className='team-link' >{ali}</a></h2>
                    <App lang={currLang}/>
                 </li>
                 <li className='team-list' >
-                   <img className='dev-img'  src={vuk} />
-                   <h2><a href="https://github.com/vukzh" className='team-link' >{vladimir}</a></h2>
+                   <div className='photo photo__5'/>
+                   <h2 className='dev-link'><a href="https://github.com/vukzh" className='team-link ' >{vladimir}</a></h2>
                    <App lang={currLang}/>
                 </li>
                 <li className='team-list' >
-                   <img className='dev-img' src={url} />
-                   <h2><a href="https://github.com/pavlenstory" className='team-link' >{pavel}</a></h2>
+                   <div className='photo photo__6'/>
+                   <h2 className='dev-link'><a href="https://github.com/pavlenstory" className='team-link' >{pavel}</a></h2>
                    <App lang={currLang}/>
                 </li>
              </ul>

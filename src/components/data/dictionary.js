@@ -277,9 +277,9 @@ export const description = {
       be: 'зроблена / не зроблена'
    },
    taskValue: {
-      en: 'The score and task name ',
-      ru: 'Оценка и название задачи',
-      be: 'Адзнака і назва задачы',
+      en: 'The score and task name  (Total score for team 280)',
+      ru: 'Оценка и название задачи  (Общая оценка команды 280)',
+      be: 'Адзнака і назва задачы  (Агульная адзнака каманд 280)',
    },
    workTask:{
       en: 'Date',

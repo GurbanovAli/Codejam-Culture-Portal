@@ -31,7 +31,11 @@ const Styleguide = () => {
     <Container className="main">
       <Row className="main__container">
         <Col className="main__colum" xl>
-          <h1>Style guide</h1>
+          <div className='storybook'>
+            <h1>Style guide</h1>
+            <h1><a className='story-link' target="_blank" href='https://ecstatic-ardinghelli-8d7a85.netlify.com/?path=/story/about-culture-portal--about'>
+              <button className='story-button'>Storybook</button></a></h1>
+          </div>
           <p>Components designed for cultur portal</p>
           <h2>Color palette</h2>
           <Container>

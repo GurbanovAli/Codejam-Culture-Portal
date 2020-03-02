@@ -60,7 +60,7 @@ const worklogData = [
       "be": 'Максім Крышнеў'
    },
    "functionality": {
-      "en": `Author's page contains "time"line`,
+      "en": `Author's page contains "timeline`,
       "ru": `Страница автора содержит строку время`,
       "be": `Старонка аўтара змяшчае радок" час `
    },
