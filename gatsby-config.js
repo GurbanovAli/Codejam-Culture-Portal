@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: Culture Portal RSSchool React2020Q1,
+    title: `Culture Portal RSSchool React2020Q1`,
     description: `This task for group 5 in RSSchool`,
     author: `@gatsbyjs`,
   },
