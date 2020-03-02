@@ -1,99 +1,79 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+# CodeJam-Culture-Portal
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+## Worklog our the Team
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+Date	   |Name	           |Functionality                                         |Time
+---------|----------------|------------------------------------------------------|---------
+18.02.20	|Dmitry Legankov |	Create maket in trello                             |	2h
+18.02.20	|Nikolay Shebeko |   Create maket in figma                              | 	3h
+18.02.20	|Maksim Kryshneu |	Create maket in figma	                           |  2h
+18.02.20	|Nikolay Shebeko |	Design UI                                          | 	3h
+19.02.20	|Maksim Kryshneu |	Author's page contains   timeline                  |	2h
+19.02.20	|Maksim Kryshneu |	Author's page contains video overlay               |	1h
+20.02.20 |Vladimir Zhdanov|	page with a list of authors	                     |  5h
+21.02.20	|Gurbanov Ali	  |   Author's page contains photo gallery               |	2h
+21.02.20	|Maksim Kryshneu |   Author's page contains map	                        |  2h
+21.02.20	|Dmitry Legankov |   Data file	                                       |  6h
+22.02.20	|Vladimir Zhdanov|   Data file                                          |	3h
+22.02.20	|Maksim Kryshneu |	Data file                                          |	2h
+22.02.20	|Gurbanov Ali	  |   Developer page	                                    |  3h
+22.02.20	|Gurbanov Ali	  |   Project is made using gatsbyjs                     |	1h
+22.02.20	|Vladimir Zhdanov|	Project is made using gatsbyjs                     |	1h
+27.02.20	|Vladimir Zhdanov|	Connecting Languages                               |	3h
+27.02.20	|Maksim Kryshneu |	styles in all page and Styleguide page	            |  4h
+27.02.20	|Gurbanov Ali    |	Worklog page                                       |	2h
+29.02.20	|Gurbanov Ali	  |   Project assembly                                   |	7h
+29.02.20	|Vladimir Zhdanov|	Project assembly	                                 |  7h
+29.02.20	|Vladimir Zhdanov|	Main page and Deploy the project	                  |  3h
+29.02.20	|Gurbanov Ali	  |  Translation of texts and connection of translation	|  3h
+29.09.20 |Gurbanov Ali    |   Netlify CMS                                        |  1h
+29.09.20 |Vladimir Zhdanov|   Change Developer page                              |  1h
+01.03.20 |Gurvanov Ali    |   Did Storybook                                      |  4h
+01.03.20 |Vladimir Zhdanov|   Fixed styles                                       |  3h
+03.03.20 |Gurbaov  Ali    |   Presentation this Culture Portal                   |  10m
 
-## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+## Score
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+   10 Main page + page with a list of authors + author's page (only pages with content without widgets) //done
 
-    ```shell
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+	10 Page with team members + page with worklog  //done
 
-1.  **Start developing.**
+	10 Page with list of authors contains search widget  //done
 
-    Navigate into your new site’s directory and start it up.
+	20 Portal has two languages   //done
 
-    ```shell
-    cd my-default-starter/
-    gatsby develop
-    ```
+	20 Portal has page with styleguide  //done
 
-1.  **Open the source code and start editing!**
+	10 Mobile version is okey  //done
 
-    Your site is now running at `http://localhost:8000`!
+	10 Ipad/tablet version is okey  //done
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+	10 Author's page contains timeline  //done
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+	10 Author's page contains video overlay  //done
 
-## 🧐 What's inside?
+	20 Author's page contains photo gallery  //done
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+	10 Author's page contains map (geowidget)   //done
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+	from 0 to 20 Design (typography, icons, colors, links + buttons + input are styled)   //done
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+	20 Material-ui / bootstrap is used  //done
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+	10 Portal has third language   //done
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+	10 Confid"en"ce of the project presentation  //will done
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+	10 Project is made using gatsbyjs //done
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+	10 Contentful / netlify cms is used for content management   //not done
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+	20 Animations / special effects like paralax //done
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+	up to 20 Outstanding design  //done
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+	20 Storybook/styleguidist/other react styleguide tool usage for the page with styles //done
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
-
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-12. **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+### General score : 280

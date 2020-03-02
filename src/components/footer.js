@@ -90,7 +90,7 @@ const Footer = () => {
           </MDBCol>
           <MDBCol md="2">
                 <h5 className="title">{contacts}<img src={paper} /></h5>
-                <button className='footer-button'>{feedback}</button>
+                <button className='footer-button'><a href='https://rs.school/'>{feedback}</a></button>
                 <button className='footer-button'>{submit}</button>
           </MDBCol>
         </MDBRow>
