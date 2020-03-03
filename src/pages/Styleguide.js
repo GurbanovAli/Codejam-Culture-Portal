@@ -111,7 +111,7 @@ const Styleguide = () => {
           </Container>
 
           <h2>Icons</h2>
-          <Container style={{background:'black', height:'70px'}}>
+          <Container style={{background:'black', height:'70px', marginTop:'20px', marginBottom:'20px'}}>
             <Row>
                <img style={{margin:'20px'}} className='icon-img' src={book}/>
                <img style={{margin:'20px'}} className='icon-img' src={mail}/>

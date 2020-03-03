@@ -110,7 +110,7 @@ export default function ProjectDescription(props) {
 
 
 
-          <Link to={'/listOfAuthors'} className="home__project-description-button">{languageData.button[language]}</Link>
+          <Link to={'/ListOfAuthors'} className="home__project-description-button">{languageData.button[language]}</Link>
 
 
       </div>

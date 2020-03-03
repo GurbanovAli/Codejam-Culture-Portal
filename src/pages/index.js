@@ -29,10 +29,8 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <div className='home-main-item'>
       <HomeDirectorData language={currLang} random={randomNumAuthor}/>
       <ProjectDescription language={currLang}/>
-      </div>
 
     </Layout>
   )

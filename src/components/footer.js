@@ -60,7 +60,7 @@ const Footer = () => {
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow className='footer-row'>
           <MDBCol md="3">
-             <img src={logo} className='logo'/>
+             <img src={logo} className='logo img-item'/>
           </MDBCol>
           <MDBCol md="2">
             <h5 className="title">{menu}<img src={book} /></h5>

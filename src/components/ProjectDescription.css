@@ -6,10 +6,6 @@
 	 line-height: 22px;
 	 word-wrap: break-word;
 }
-.home__project-description-container{
-  
-}
-
  .home__project-description-first-part::after, .home__project-description-second-part-wrapper:after {
 	 content: '';
 	 padding-top: 25%;
@@ -46,7 +42,6 @@
 	 font-style: normal;
 }
  .home__project-description-wrapper {
-	 height: 100vh;
 	 margin: 0 68px;
 }
  .home__project-description-container {
