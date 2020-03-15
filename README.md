@@ -67,7 +67,7 @@ Date	   |Name	           |Functionality                                         
 
 	10 Project is made using gatsbyjs //done
 
-	10 Contentful / netlify cms is used for content management   //not done
+	10 Contentful / netlify cms is used for content management   //done
 
 	20 Animations / special effects like paralax //done
 
