@@ -35,7 +35,7 @@ Date	   |Name	           |Functionality                                         
 
 ## Score
 
-   10 Main page + page with a list of authors + author's page (only pages with content without widgets) //done
+  	10 Main page + page with a list of authors + author's page (only pages with content without widgets) //done
 
 	10 Page with team members + page with worklog  //done
 
